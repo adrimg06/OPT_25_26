@@ -1,7 +1,5 @@
-nota_1 = float(input("Introduce la primera nota: "))
-nota_2 = float(input("Introduce la segunda nota: "))
-nota_3 = float(input("Introduce la tercera nota: "))
+numero = int(input("Introduce un número para ver su tabla de multiplicar: "))
 
-promedio = (nota_1 + nota_2) / 3  # Debe sumar las tres notas
-
-print("El promedio de las tres notas es:", promedio)
+for factor in range(1, 11):
+    resultado = numero * factor
+    print(f"{numero} x {factor} = {resultado}")
