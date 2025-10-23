@@ -1,5 +1,5 @@
-num1 = float(input("Ingrese el primer número: "))
-num2 = float(input("Ingrese el segundo número: "))
+num1 = input("Ingrese el primer número: ")
+num2 = input("Ingrese el segundo número: ")
 operacion = input("Elige operación (suma, resta, multiplicacion, division): ").lower()
 
 match operacion:
