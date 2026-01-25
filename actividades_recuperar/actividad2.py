@@ -7,7 +7,7 @@ def gestionar_persona() -> None:
     #hacemos un for para recorer la lista y despues hacemos un print para mostrarla
     for clave in persona:
         print(f"{clave}: {persona[clave]}")
-
+   #añadimos una nueva calve llamada profesion y le pondremos ingenieria
     persona["profesion"] = "ingeniería"
     del persona["ciudad"]
 
